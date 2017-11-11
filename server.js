@@ -2,8 +2,9 @@ var http = require('http');
 var mysql = require('mysql');
 
 var connection = mysql.createConnection({
-  host    : 'localhost',
-  user    : 'root',
+  host    : 'ishiguchi.cytjkt9qynol.ap-northeast-1.rds.amazonaws.com:3306',
+  user    : 'ishiguchi',
+  passward : 'passward',
   database: 'blog'
 });
 
